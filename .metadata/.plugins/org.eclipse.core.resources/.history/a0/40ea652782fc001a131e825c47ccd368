@@ -18,11 +18,6 @@ public class Student
 		
 	}
 //non-default constructor
-	public Student(String n, String g) 
-	{
-		name = n;
-		gender = g;
-	}
 	
 //getters & setters
 

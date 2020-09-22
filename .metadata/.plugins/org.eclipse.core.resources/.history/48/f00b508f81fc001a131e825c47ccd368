@@ -11,21 +11,15 @@ public class Student
 	}
 
 //default constructor
+	
+//geters & setters
 	public Student() 
 	{
 		name = "Adam";
 		gender = "male";
 		
 	}
-//non-default constructor
-	public Student(String n, String g) 
-	{
-		name = n;
-		gender = g;
-	}
 	
-//getters & setters
-
 	
 	public String getName()
 	{

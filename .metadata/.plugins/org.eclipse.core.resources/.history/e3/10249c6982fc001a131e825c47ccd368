@@ -12,7 +12,6 @@ public class TestStudent
 		
 		Student st2 = new Student("Anya", "female");
 		st2.eat();
-		System.out.println(st2.getGender());
 		
 	}
 }
