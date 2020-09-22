@@ -1,0 +1,10 @@
+package foundation;
+
+public class TestStudent
+{
+	public static void main(String[] args)
+	{
+		Student anya = new Student();
+		anya.eat();
+	}
+}

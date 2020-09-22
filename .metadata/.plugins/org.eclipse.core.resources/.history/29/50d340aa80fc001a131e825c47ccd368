@@ -13,12 +13,6 @@ public class Student
 //default constructor
 	
 //geters & setters
-	public Student() 
-	{
-		name = "Adam";
-		gender = "male";
-		
-	}
 	
 	
 	public String getName()
