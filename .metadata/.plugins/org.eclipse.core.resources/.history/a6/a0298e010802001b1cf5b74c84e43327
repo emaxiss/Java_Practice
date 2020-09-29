@@ -1,0 +1,9 @@
+package strings;
+
+public class StringMethods
+{
+	public static void main(String[] args)
+	{
+		String palindrome = new String("Madam Im Adam");
+	}
+}

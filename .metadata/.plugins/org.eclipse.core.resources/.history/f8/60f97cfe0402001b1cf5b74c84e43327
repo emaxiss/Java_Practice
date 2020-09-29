@@ -60,8 +60,8 @@ public class UsingSwitch
 		switch (index)
 		{
 			case 1 -> System.out.println("1 case");
-			case 11 -> {System.out.println("\tFirst line in case 11");
-						System.out.println("\tSecond line in case 11");}
+			case 11 -> {System.out.println("First line in case 11");
+						System.out.println("Second line in case 11");}
 			default -> System.out.println("default");
 		}
 	}
