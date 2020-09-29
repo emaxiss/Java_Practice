@@ -32,9 +32,8 @@ public class StringMethods
 		char charVar = 'V';
 		String strVar = "Java 14";
 		
-		System.out.printf("The formatted string: %d %f %c %s\n", intVar, floatVar, charVar, strVar);
+		System.out.printf("The formatted string: %d %f %c %s", intVar, floatVar, charVar, strVar);
 		
-		String female = palindrome.substring(0, 5);
-		System.out.println(female);
+		String female = palindrome.substring(0, 5)
 	}
 }

@@ -1,0 +1,9 @@
+package strings;
+
+public class StringManipultion
+{
+	public static void main(String[] args)
+	{
+		String sentence = "I like learing java 14"
+	}
+}
