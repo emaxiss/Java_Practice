@@ -9,7 +9,7 @@ public class StringManipultion
 		int sizeOfSentence = sentence.length();
 		for (int i = 0; i < sizeOfSentence; i++) 
 		{
-			System.out.print(sentence.charAt(sizeOfSentence - 1 - i));
+			System.out.print(sentence.charAt(sizeOfSentence -1 - i));
 		}
 		System.out.println();
 	}
