@@ -20,6 +20,3 @@ public class H1b
 		h.vowels(ch);
 	}
 }
-
-
-
