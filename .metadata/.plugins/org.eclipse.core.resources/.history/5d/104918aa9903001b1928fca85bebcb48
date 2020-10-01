@@ -37,8 +37,6 @@ public class StringMethods
 		String female = palindrome.substring(0, 5);
 		System.out.println(female);
 		
-		char[] school = {'p', 'a', 's', 'v'};
-		String pasv = new String(school);
-		System.out.println(pasv);
+		char[] school = {'p', 'a', 's', 'v'}
 	}
 }

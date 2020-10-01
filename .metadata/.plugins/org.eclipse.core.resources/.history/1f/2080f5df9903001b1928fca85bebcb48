@@ -38,7 +38,5 @@ public class StringMethods
 		System.out.println(female);
 		
 		char[] school = {'p', 'a', 's', 'v'};
-		String pasv = new String(school);
-		System.out.println(pasv);
 	}
 }

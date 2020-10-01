@@ -23,7 +23,7 @@ public class WorkingWithArray
 			System.out.println(myStrings[i]);
 		
 //array initialization
-		String[] family = {"mama", "papa"};
+		String[] family = {"mama", "papa"}
 		
 	}
 }
