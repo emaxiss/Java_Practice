@@ -1,6 +1,6 @@
-package controls;
+package homeworks;
 
-public class IfElse
+public class H1c
 {
 	public static void main(String[] args)
 	{
