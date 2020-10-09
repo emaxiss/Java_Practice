@@ -14,10 +14,7 @@ public class TestInheritance
 		System.out.println("Dog's type: " + dog.getType());
 		System.out.println("Dog's name: " + dog.getName());
 		
-		Animal ani = new Dog("Very big dog", "Rex", "Labrador");
-		ani.eat();
-		System.out.println(ani.getType());
-		
+		Animal ani = new Dog("Very big dog", "Rex", "Labrador")
 		ani = new Cat("Siam");
 		ani.eat();
 	}
