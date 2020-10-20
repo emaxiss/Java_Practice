@@ -1,0 +1,14 @@
+package homeworks;
+
+public class H7
+{
+	public boolean isAnagram(String s1, String s2)
+	{
+		
+	}
+	public static void main(String[] args)
+	{
+		String s1 = "Debit card";
+		String s2 = "Bad credit";
+	}
+}

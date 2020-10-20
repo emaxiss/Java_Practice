@@ -1,0 +1,11 @@
+package statics;
+
+public class Student
+{
+//instance variables
+	private String name;
+	private String city;
+	
+	private static String school = "PASV";
+	private static int numberOfStudents = 0;
+}

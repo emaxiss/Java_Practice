@@ -1,0 +1,31 @@
+package statics;
+
+public class Student
+{
+//instance variables
+	private String name;
+	private String city;
+	
+	private static String school = "PASV";
+	private static int numberOfStudents = 0;
+	
+//consturctor
+	public Student(String aName, String aCity)
+	{
+		name = aName;
+		city = aCity;
+		numberOfStudent++;
+	}
+	
+//getters
+	public static String getSchool();
+	{
+		return school;
+	}
+	
+	public static int getNumberOfStudents()
+	{
+		return numberOfStudents
+	}
+}
+
