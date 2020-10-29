@@ -2,13 +2,13 @@ package inheritance;
 
 public class Cat extends Animal
 {
-//constructor
+// constructor
 	public Cat(String aType)
 	{
 		super(aType);
 	}
 	
-//methods
+// methods
 	public void eat()
 	{
 		System.out.println("eating fish...");

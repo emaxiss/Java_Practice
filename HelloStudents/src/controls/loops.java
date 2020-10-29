@@ -1,5 +1,4 @@
 package controls;
-
 public class loops
 {
 	public static void main(String[] args)
@@ -15,7 +14,7 @@ public class loops
 		
 // do while		
 		count = 1;
-		do 
+		do
 		{
 			System.out.println("Count is:" + count);
 			count++;

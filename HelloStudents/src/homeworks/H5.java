@@ -19,7 +19,7 @@ public class H5
 				f1 = fn;
 			}
 		}
-		else
+		else 
 			System.out.print(n - 1);
 	}
 	
@@ -27,7 +27,7 @@ public class H5
 	{
 		if (n <= 2)
 			return n - 1;
-		else
+		else 
 			return fibonacciRecursion(n - 1) + fibonacciRecursion(n - 2);
 	}
 	

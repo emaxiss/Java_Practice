@@ -17,9 +17,13 @@ public class WithFinally
 		{
 			System.out.println("Inside finally");
 		}
+		
+		return 68;
 	}
 	public static void main(String[] args)
 	{
-		// TODO Auto-generated method stub
+		var a = new WithFinally();
+		int i = a.getNumber();
+		System.out.println(i);
 	}
 }

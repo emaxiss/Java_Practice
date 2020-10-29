@@ -4,29 +4,28 @@ public class Student
 {
 	private String name;
 	private String gender;
-	
-	public void eat() 
+
+// class methods
+	public void eat()
 	{
 		System.out.println("I am eating eel");
 	}
-
-//default constructor
-	public Student() 
+	
+// default constructor
+	public Student()
 	{
 		name = "Adam";
 		gender = "male";
-		
 	}
-//non-default constructor
-	public Student(String n, String g) 
+	
+// non-default constructor
+	public Student(String n, String g)
 	{
 		name = n;
 		gender = g;
 	}
 	
-//getters & setters
-
-	
+// getters & setters 
 	public String getName()
 	{
 		return name;
@@ -47,5 +46,4 @@ public class Student
 		this.gender = gender;
 	}
 	
-
 }

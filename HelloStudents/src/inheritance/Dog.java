@@ -1,29 +1,29 @@
 package inheritance;
 
-public class Dog extends Animal
+public class Dog extends Animal //subclass
 {
 	private String name;
 	private String breed;
 	
-//constructor
+// constructor
 	public Dog(String aType, String aName, String aBreed)
 	{
-		super(aType);
+		super(aType); //constructor of the superclass - Animal
 		name = aName;
-		breed = aBreed;
+		breed = aBreed;	
 	}
 	
-//methods
+// methods
 	public void bark()
 	{
-		System.out.println("barking....");
+		System.out.println("barking...");
 	}
 
+// method overriding
 	public void eat()
 	{
-		System.out.println("eating bones....");
+		System.out.println("eating bones...");
 	}
-	
 	public String getName()
 	{
 		return name;
@@ -33,4 +33,6 @@ public class Dog extends Animal
 	{
 		return breed;
 	}
+	
+	
 }

@@ -1,3 +1,4 @@
+// calculate factorial of : n! = n * (n – 1)!
 package homeworks;
 
 public class H4a
@@ -6,8 +7,8 @@ public class H4a
 	{
 		int fact = 1;
 		
-		for(int i = 1; i <= n; i++)
-			fact *= 1;
+		for (int i = 1; i <= n; i++)
+			fact *= i; //fact = fact * i;
 		return fact;
 	}
 	
@@ -23,5 +24,7 @@ public class H4a
 	{
 		H4a h = new H4a();
 		System.out.println("Factorial of 4: " + h.fact1(4));
+		
+		System.out.println("Factorial of 4: " + h.fact2(4));
 	}
 }

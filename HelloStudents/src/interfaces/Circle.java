@@ -5,11 +5,11 @@ public class Circle implements Drawable
 	@Override
 	public void draw()
 	{
-		System.out.println("Drawing circle");
+		System.out.println("drawing circle");
 	}
 	
 	public void fillWithRedColor()
 	{
-		System.out.println("Filling with red color");
+		System.out.println("filling with red color");
 	}
 }

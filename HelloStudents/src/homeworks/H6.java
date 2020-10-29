@@ -11,14 +11,16 @@ public class H6
 			pal = pal + words[i];
 		
 		int length = pal.length();
-		for (int i = 0; i < length / 2; i++)
+		for (int i = 0; i < length/2; i++)
 			if (pal.charAt(i) != pal.charAt((length - 1) - i))
 				return false;
+		
 		return true;
 	}
+	
 	public static void main(String[] args)
 	{
-		String palindrome = "Madam Im Adam";
+		String palindrome = "Madam";
 		H6 h = new H6();
 		System.out.println(h.isPalindrome(palindrome));
 		

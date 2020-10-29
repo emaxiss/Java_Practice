@@ -9,6 +9,6 @@ public class H2
 	public static void main(String[] args)
 	{
 		H2 h = new H2();
-		System.out.println(h.isEven(4));
+		System.out.println(h.isEven(1));
 	}
 }

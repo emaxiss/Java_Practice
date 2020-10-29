@@ -11,6 +11,7 @@ public interface Drawable
 	
 	static void drawing()
 	{
-		System.out.println("drawing in static method");
+		System.out.println("drawing in static methods");
 	}
 }
+

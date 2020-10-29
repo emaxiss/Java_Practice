@@ -1,10 +1,10 @@
-package homeworks;
+package com.modifiers.pack1;
 
-public class Person
+public class PackageLevel
 {
 	private String name;
 	
-	public Person(String aName)
+	public PackageLevel(String aName)
 	{
 		name = aName;
 	}

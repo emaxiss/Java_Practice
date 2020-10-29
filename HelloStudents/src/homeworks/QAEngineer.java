@@ -1,4 +1,5 @@
 package homeworks;
+
 public class QAEngineer extends Employee
 {
 	private double signinBonus;

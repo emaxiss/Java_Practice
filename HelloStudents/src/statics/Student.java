@@ -2,10 +2,11 @@ package statics;
 
 public class Student
 {
-//instance variables
+// instance variables
 	private String name;
 	private String city;
-	
+
+// class level variables
 	private static String school = "PASV";
 	private static int numberOfStudents = 0;
 	
@@ -17,7 +18,7 @@ public class Student
 		numberOfStudents++;
 	}
 	
-//getters
+// getters
 	public static String getSchool()
 	{
 		return school;
@@ -27,5 +28,5 @@ public class Student
 	{
 		return numberOfStudents;
 	}
+	
 }
-

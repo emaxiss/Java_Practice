@@ -11,6 +11,5 @@ public class H
 		char last = name.charAt(space + 1);
 		
 		System.out.println(first + "." + last + ".");
-		
 	}
 }
