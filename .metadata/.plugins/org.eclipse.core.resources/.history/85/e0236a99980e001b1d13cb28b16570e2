@@ -1,8 +1,0 @@
-package statics;
-
-public class Student
-{
-//instance variables
-	private String name;
-	private String city;
-}
