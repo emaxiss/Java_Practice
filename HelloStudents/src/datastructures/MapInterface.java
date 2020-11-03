@@ -23,11 +23,11 @@ public class MapInterface
 		
 		animals.forEach((k, v) -> System.out.println(k + " = " + v));
 		
-		Map zoo = Map.of("dog", 1,
+		Map<String, Integer> zoo = Map.of("dog", 1,
 						"horse", 1,
 						"rabbit", 68);
 		
-		int horseNumber = (int)zoo.get("horse");
+		int horseNumber = zoo.get("horse");
 		System.out.println("horse number: " + horseNumber);
 	}
 }
