@@ -1,5 +1,6 @@
 package homeworks;
 
+import java.util.HashMap;
 import java.util.HashSet;
 
 public class H11
@@ -25,5 +26,21 @@ public class H11
 				System.out.println("There are duplicates in array");
 				break;
 			}
+			else
+				System.out.println("haha");
+//2
+		for (String word: set)
+			System.out.println(word);
+		
+//3
+		var map = new HashMap<String, Integer>();
+		for (String word: words)
+			if (map.containsKey(word))
+				map.put(word, map.get(word) + 1);
+			else
+				map.put(word, 1);
+		
+		map.forEach((k, v) -> System.out.println(k + " = " + v));
+		
 	}
 }
