@@ -13,9 +13,9 @@ class Locators extends BaseTest
 		driver.findElement(By.className("ribbon-kmart-logo")).click();
 // by CSS selector
 		driver.findElement(By.cssSelector("#yourAccount")).click();
-		driver.navigate().refresh();
+//		driver.navigate().refresh();
 // by id
-//		driver.findElement(By.id("keyword")).sendKeys("milk");
+		driver.findElement(By.id("keyword")).sendKeys("milk");
 // by link text
 		driver.findElement(By.linkText("Kmart home")).click();
 // by name
@@ -27,6 +27,6 @@ class Locators extends BaseTest
 		System.out.println(driver.findElement(By.tagName("body")).getText());
 		
 // by xpath
-		
+		driver.findElement(By.xpath("//ul/li[2]/span/a[@href='/shoes/b-5001379']")).click();
 	}
 }
