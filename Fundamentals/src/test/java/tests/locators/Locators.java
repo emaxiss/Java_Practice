@@ -1,29 +1,32 @@
-package tests;
-
+package tests.locators;
 import static org.junit.jupiter.api.Assertions.*;
+import common.*;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-
-import common.BaseTest;
-
 class Locators extends BaseTest
 {
 	@Test
 	void test()
 	{
-		driver.navigate().to("https://www.kmart.com/");  
-		
-// BY class Name		
-		driver.findElement(By.className("ribbon-kmart-logo")).click();  
-		
-// By CSS Selector		
-		driver.findElement(By.cssSelector("#yourAccount")).click();     
+		driver.navigate().to("https://www.kmart.com/");
+// by className
+		driver.findElement(By.className("ribbon-kmart-logo")).click();
+// by CSS selector
+		driver.findElement(By.cssSelector("#yourAccount")).click();
 		driver.navigate().refresh();
-		
-// By Id
-		driver.findElement(By.id("keyword")).sendKeys("Milk");
-		
-// By link text
+// by id
+//		driver.findElement(By.id("keyword")).sendKeys("milk");
+// by link text
 		driver.findElement(By.linkText("Kmart home")).click();
+// by name
+		driver.findElement(By.name("keyword")).sendKeys("coke");
+// by partial link text
+		driver.findElement(By.partialLinkText("home")).click();
+		
+// by tag name
+		System.out.println(driver.findElement(By.tagName("body")).getText());
+		
+// by xpath
+		
 	}
 }
