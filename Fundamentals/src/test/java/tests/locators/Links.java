@@ -12,10 +12,16 @@ import common.BaseTest;
 
 class Links extends BaseTest
 {
+	@BeforeEach
+	void open()
+	{
+		driver.get("http://book.theautomatedtester.co.uk");
+	}
+	
 	@Test
 	void testingLinks()
 	{
-		driver.get("http://book.theautomatedtester.co.uk");
+		
 		List<WebElement> list = driver.findElements(By.tagName("a"));
 		
 		int numberOfLinks = list.size();
@@ -28,7 +34,6 @@ class Links extends BaseTest
 	@Test
 	void getPageHTML()
 	{
-		driver.get("http://book.theautomatedtester.co.uk");
 		String body = driver.getPageSource();
 		System.out.println("Page HTML code:\n" + body);
 		assertTrue(body.contains("Selenium"));
