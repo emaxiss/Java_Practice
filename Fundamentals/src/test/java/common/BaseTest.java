@@ -20,6 +20,6 @@ public class BaseTest
 	@AfterEach
 	void tearDown() throws Exception
 	{
-		driver.quit();
+//		driver.quit();
 	}
 }
