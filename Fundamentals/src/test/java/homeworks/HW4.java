@@ -1,0 +1,44 @@
+package homeworks;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.List;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import common.BaseTest;
+
+class HW4 extends BaseTest
+{
+	private String givenColumnName = "Last Name";
+	@BeforeEach
+	void open() throws Exception
+	{
+		driver.get("http://demo.automationtesting.in/WebTable.html");
+	}
+
+	@Test
+	void test()
+	{
+		int givenColumn = 0;
+		int currentColumn = 1;
+		
+		System.out.println("Column headers: ");
+		List<WebElement> headers = driver.findElements(By.cssSelector(".ui-grid-header-cell-label.ng-binding"));
+		
+		for (WebElement header: headers)
+		{
+			String columnName = header.getText();
+			System.out.println(columnName);
+			if (columnName.contains(givenColumnName))
+				givenColumn = currentColumn;
+			else
+				currentColumn++;
+		}
+		
+		System.out.println("\nGiven column name number is " + givenColumn);
+	}
+}

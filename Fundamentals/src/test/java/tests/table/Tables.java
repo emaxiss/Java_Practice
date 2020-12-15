@@ -42,6 +42,8 @@ class Tables extends BaseTest
 //3 Метод
 		System.out.println("\nThird Method");
 		var cellText = new ArrayList<String>();
-		List<WebElement> column = driver.findElement(By.cssSelector("//td[@class='dues']));
+		List<WebElement> column = driver.findElements(By.cssSelector("//td[@class='dues']"));
+		for (WebElement cell: column)
+			System.out.println();
 	}
 }
