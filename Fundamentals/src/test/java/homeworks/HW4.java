@@ -1,4 +1,12 @@
-class Homework4 extends BaseTest
+package homeworks;
+import static org.junit.jupiter.api.Assertions.*;
+import java.util.List;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import common.BaseTest;
+class HW4 extends BaseTest
 {
 	private String givenColumnName = "Last Name";
 

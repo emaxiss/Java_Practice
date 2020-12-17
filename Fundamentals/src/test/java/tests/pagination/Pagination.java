@@ -26,5 +26,8 @@ class Pagination extends BaseTest
 		String[] resultWords = results.split(" ");
 		int totalResults = Integer.parseInt(resultWords[3]); // Double float
 		System.out.println("Total results found: " + totalResults);
+		
+		int resultsDisplayed = Integer.parseInt(resultWords[1].split("-")[1]);
+		System.out.println("Maximum reults displayed on the page: " + resultsDisplayed);
 	}
 }
